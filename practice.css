@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    background-color: rgb(74, 202, 253);
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    align-self: center;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.leftOption,.rightOption{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
